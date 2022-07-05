@@ -1,0 +1,62 @@
+import {StyleSheet} from 'react-native';
+
+export const HomeStyles = StyleSheet.create({
+  confIconsWrapper: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 'auto',
+    padding: 20,
+  },
+  colletionsBook: {
+    marginLeft: 'auto',
+  },
+  backgroudImage: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    zIndex: -1,
+  },
+  backgroudImage2: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    zIndex: -2,
+  },
+  cardsWrapper: {
+    width: '100%',
+    height: '10%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: '17%',
+    marginBottom: 'auto',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+  cardsWrapper2: {
+    width: '100%',
+    height: '10%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: '4%',
+    marginBottom: '5%',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+  cardsWrapper3: {
+    width: '100%',
+    height: '10%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: 'auto',
+    marginBottom: '10%',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+});
